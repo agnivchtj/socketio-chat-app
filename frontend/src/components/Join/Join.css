@@ -1,0 +1,38 @@
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background: #50a3a2;
+    background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+}
+
+.inner-container {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 32.5%;
+}
+
+.header {
+    text-align: center;
+    background: #212121;
+    color: #fff;
+}
+
+.card-actions {
+    justify-content: center;
+}
+
+#button {
+    background-color: whitesmoke;
+    color: #4dcc97;
+    border-radius: 5px;
+    width: 20%;
+    cursor: pointer;
+    font-size: 15px;
+    transition-duration: 0.25s;
+}
